@@ -1,0 +1,151 @@
+sig 
+{
+	font-family:"仿宋";
+	-ms-writing-mode:tb-rl;
+}
+author 
+{
+	font-family:"华文仿宋";
+	font-size:50%;
+	-ms-writing-mode:tb-rl;
+}
+blockquote
+{
+	font-family:"楷体";
+	-ms-writing-mode:tb-rl;
+}
+sm::before 
+{
+	content:"《";
+}
+sm::after 
+{
+	content:"》";
+}
+sm
+{
+	-ms-writing-mode:tb-rl;
+}
+zm 
+{
+	text-decoration:underline;
+}
+div.tbrl
+{
+	-webkit-writing-mode:vertical-rl;
+	-ms-writing-mode:tb-rl;
+}
+div.tbrl.mainbody
+{
+	padding-top:3%;
+	padding-bottom:3%;
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+	background-image:url(../resource/paper.jpg);
+	height:80%;
+	display: inline-block;
+}
+div.down
+{
+	height:5%; 
+	margin:0 0 0 0;
+	padding:0px 0px 0px 0px;
+	bottom:0;
+	left:0;
+	position:relative;
+}
+div.up
+{
+	height:5%;
+	margin:0 0 0 0;
+	padding:0px 0px 0px 0px;
+	position:fixed;    
+	top: 0px;   
+}
+div.menu
+{
+	margin:0 0 0 0;
+	padding:0px 0px 0px 0px;
+	position:fixed;    
+	bottom:0.5%;   
+	right:1%;
+	font-family:"华文中宋";
+	color:#6A067B;
+	text-shadow: 0px 0px 5px #FFDDBB;
+	font-weight:bold;
+	letter-spacing:5px;
+}
+div.big
+{
+	height:100%
+	text-align: center;
+}
+img 
+{
+	display:block;
+	max-height:100%;
+	bottom:0px;
+	left:0px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+body 
+{
+	background-image:url(../resource/flower.jpg);
+	font-family:"宋体";
+	font-size:130%;
+	line-height:150%;
+}
+p
+{
+	padding-right:0.5em;
+	padding-left:0.5em;
+	padding-top:3em;
+	padding-bottom:3em;
+}
+p.soft
+{
+	padding-right:0px;
+	padding-left:0px;
+}
+blockquote
+{
+	line-height:100%;
+	padding-right:0.5em;
+	padding-left:0.5em;
+}
+h1 
+{
+	font-size:300%;
+	font-weight:bold;
+	padding-left:2em;
+	padding-right:0.5em;
+	font-family:"华文中宋";
+}
+h2
+{
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:0.5em;
+	padding-right:3em;
+}
+h3
+{
+	padding-top:1em;
+	padding-bottom:1em;
+}
+a:link 
+{
+	text-decoration: none;
+}
+a:visited 
+{
+	text-decoration: none;
+}
+a:hover 
+{
+	text-shadow: 0px 0px 15px #FFDDBB;
+	color:#FFDDBB;
+}

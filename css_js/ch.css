@@ -1,0 +1,142 @@
+body
+{
+	margin:0;
+}
+div.container
+{
+	background-image:url(../resource/moon_ch.jpg);
+	background-position: right center;
+	background-size: cover;
+	width:100%;
+	height:100%;
+}
+@font-face 
+{
+	font-family: 'yumin';
+	font-weight:normal;
+	src:url('../resource/yumin.ttf') format('truetype');
+}
+@font-face 
+{
+	font-family: 'yumin_bold';
+	font-weight:bold;
+	src:url('../resource/yumindb.ttf') format('truetype');
+}
+div.padl
+{
+	width:300px;
+    height:300px;
+	position: absolute;
+	top: 50%;
+	left: calc(50% - 125px);
+	transform: translate(-50%, -50%);
+	border-radius:50%;
+	background:#000;
+	opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+div.padr
+{
+	width:300px;
+    height:300px;
+	position: absolute;
+	top: 50%;
+	left: calc(50% + 125px);
+	transform: translate(-50%, -50%);
+	border-radius:50%;
+	background:#000;
+	opacity: 0.4;
+}
+div.title
+{
+	position: absolute;
+	top: 50%;
+	left: calc(50% + 125px);
+	transform: translate(-50%, -50%);
+	font-family: 'yumin_bold','Yu Mincho';
+	 font-weight: bold;
+	-webkit-writing-mode:vertical-rl;
+	-ms-writing-mode:tb-rl;
+	writing-mode:vertical-rl;
+	font-size:190%;
+	opacity: 1;
+	color:#FFDDBB;
+}
+img.padr
+{
+	width:300px;
+    height:300px;
+	position: absolute;
+	top: 50%;
+	left: calc(50% + 125px);
+	transform: translate(-50%, -50%);
+	border-radius:50%;
+	opacity: 0;
+	cursor:pointer;
+}
+pad:hover img.padr
+{
+	opacity: 1;
+}
+div.menu
+{
+	position: absolute;
+	top: 50%;
+	left: calc(50% - 125px);
+	transform: translate(-50%, -50%);
+	font-family: 'yumin','Yu Mincho';
+	font-weight: normal;
+	-webkit-writing-mode:vertical-rl;
+	-ms-writing-mode:tb-rl;
+	writing-mode:vertical-rl;
+	font-size:130%;
+	line-height:150%;
+}
+myname
+{
+	font-size:150%;
+}
+a:link 
+{
+	text-decoration: none;
+	color:#FAEAE0;
+}
+a:visited 
+{
+	text-decoration:none;
+	color:#FAEAE0;
+}
+a:hover 
+{
+	color:#FFDDBB;
+}
+div.shader
+{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background: black;
+    opacity: 0.4;
+    filter: alpha(opacity = 40); /* required for opacity to work in IE */
+	top:0;
+	left:0;
+	z-index:6;
+}
+img.large
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height:90%;
+	z-index:11;
+	cursor:pointer;
+}
+img.largeblur
+{
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(30px);
+}

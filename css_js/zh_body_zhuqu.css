@@ -1,0 +1,20 @@
+body
+{
+	background: #8f9442 url('../resource/moon_ch.jpg') right center fixed;
+}
+div.plate
+{
+	display:inline-block;
+}
+div.pad
+{
+	margin: 0 auto 0 auto;
+	width:90%;
+	background:rgba(250,248,241,0.9);
+}
+div.tbrl
+{
+	margin:auto 3% auto 3%;
+	font-size:130%;
+	line-height:125%;
+}
