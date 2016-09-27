@@ -23,7 +23,7 @@ body
 div.container
 {
 	background-image:url(../resource/moon_en2_pale.jpg);
-	background-position: right center;
+	background-position: left center;
 	background-size: cover;
 	width:100%;
 	height:100%;
@@ -213,4 +213,18 @@ a.inlink:visited
 {
     color: #274289;
 	text-decoration: none;
+}
+a.underlink
+{
+	color:black;
+	text-decoration: underline;
+}
+a.underlink:visited 
+{
+    color: black;
+	text-decoration: underline;
+}
+a.underlink:hover
+{
+    color: #274289;
 }

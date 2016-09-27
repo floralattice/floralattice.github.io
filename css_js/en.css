@@ -17,7 +17,7 @@ body
 div.container
 {
 	background-image:url(../resource/moon_en2.jpg);
-	background-position: right center;
+	background-position: left center;
 	background-size: cover;
 	width:100%;
 	height:100%;
