@@ -94,9 +94,22 @@ p.small
 	font-size:100%;
 	margin-left:3em;
 }
+div.footnote
+{
+	font-size:75%;
+	text-indent:2em;
+}
+p.footnote
+{
+	margin: 0.25ex;
+}
 span.stress
 {
 	font-style: italic;
+}
+div.quote
+{
+	padding-left:8em;
 }
 .myname
 {

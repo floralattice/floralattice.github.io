@@ -1,0 +1,108 @@
+@font-face 
+{
+	font-family: 'yumin';
+	src:url('../resource/yumin.ttf') format('truetype');
+}
+html
+{
+	width:100%;
+}
+body 
+{
+	margin-top:0;
+	margin-left:0;
+	background-image:url(../resource/moon_ch.jpg);
+	background-position: right center;
+	background-size: cover;
+	width: 100%;
+}
+div.container
+{
+	width:auto;
+	min-width: 100%;
+	-webkit-writing-mode:vertical-rl;
+	-ms-writing-mode:tb-rl;
+	writing-mode: vertical-rl;
+	padding: 5% 20px;
+}
+div.plate
+{
+	width:auto;
+	min-width: calc(100vw - 60px);
+	background:rgba(250,248,241,0.85);
+	padding:0 0 0 0;
+	height:90vh;
+}
+div.text
+{
+	z-index: 5;
+	padding:5% 50px;
+	width:auto;
+	min-width: 100%;
+	font-family: 'yumin','Yu Mincho',serif;
+	font-size:130%;
+	line-height:130%;
+	color:rgb(35,35,35);
+} 
+a:link 
+{
+	color:#32719E;
+	text-decoration: none;
+	border-left: 0 solid;
+	padding-left: 0;
+}
+a:visited
+{
+	color:#32719E;
+	text-decoration: none;
+	border-left: 0 solid;
+	padding-left: 0；
+}
+span.footnote
+{
+	color:#36339E;
+	text-decoration: none;
+	border-left: 0 dashed;
+	padding-left: 0;
+}
+p.back
+{
+	text-align: center;
+	font-size:150%;
+	line-height:200%;
+}
+a.back
+{
+	color:#32719E;
+	text-decoration: none;
+	border-left: 0 solid;
+	font-family: '华文楷体','楷体',cursive;
+}
+a.back:hover
+{
+	text-shadow: 0px 0px 15px #32719E;
+	color:#32719E;
+}
+li
+{
+	margin-left:0.5em;
+}
+div.quote
+{
+	padding-top:4ex;
+	padding-bottom:4ex;
+	margin:0 0.5em;
+	font-family: '楷体',cursive;
+}
+img.intext
+{
+	height: 90%;
+}
+img.intext50
+{
+	height: 60%;
+}
+span.kai
+{
+	font-family: '楷体',cursive;
+}
