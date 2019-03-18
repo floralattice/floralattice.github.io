@@ -6,3 +6,7 @@ a.big
 {
 	font-size:300%;
 }
+div.hidden
+{
+	display: none; 
+}
